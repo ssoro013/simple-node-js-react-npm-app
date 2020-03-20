@@ -6,8 +6,9 @@ pipeline {
         }
     }
     environment {
-        HOME = '.'
-        CI = 'true'
+        // HOME = '.'
+        // CI = 'true'
+        npm_config_cache = 'npm-cache'
     }
     stages {
         stage('Build') {
