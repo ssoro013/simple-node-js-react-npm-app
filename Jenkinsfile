@@ -16,7 +16,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                sh './jenkins/scripts/test.sh'
+                sh '/Users/sorodidiouf/simple-node-js-react-npm-app/jenkins/scripts/test.sh'
             }
         }
         stage('Deliver') {
